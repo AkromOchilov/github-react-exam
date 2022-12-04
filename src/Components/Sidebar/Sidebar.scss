@@ -1,0 +1,33 @@
+.sidebar {
+	&__follower::before {
+		content: '';
+		display: flex;
+		width: 18px;
+		height: 18px;
+		margin-right: 2px;
+
+		background-image: url('./../../Assets/Images/followers.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	&__follower:hover,
+	&__following:hover {
+		color: #0000ff !important;
+	}
+
+	&__location::before {
+		content: '';
+		display: flex;
+		width: 18px;
+		height: 18px;
+		margin-right: 2px;
+
+		background-image: url('./../../Assets/Images/location.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	&__bio {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}

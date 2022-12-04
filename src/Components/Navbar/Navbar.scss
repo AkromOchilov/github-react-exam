@@ -1,0 +1,65 @@
+.navbar-link {
+	display: flex;
+	align-items: center;
+	&:hover {
+		background-color: #ccc;
+		color: #000;
+		border-radius: 8px;
+	}
+
+	&-1::before {
+		content: '';
+		display: flex;
+		width: 16px;
+		height: 16px;
+		margin-right: 3px;
+
+		background-image: url('./../../Assets/Images/notification.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	&-2::before {
+		content: '';
+		display: flex;
+		width: 16px;
+		height: 16px;
+		margin-right: 3px;
+
+		background-image: url('./../../Assets/Images/repos.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	&-3::before {
+		content: '';
+		display: flex;
+		width: 16px;
+		height: 16px;
+		margin-right: 3px;
+
+		background-image: url('./../../Assets/Images/projects.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	&-4::before {
+		content: '';
+		display: flex;
+		width: 16px;
+		height: 16px;
+		margin-right: 3px;
+
+		background-image: url('./../../Assets/Images/packages.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	&-5::before {
+		content: '';
+		display: flex;
+		width: 16px;
+		height: 16px;
+		margin-right: 3px;
+
+		background-image: url('./../../Assets/Images/stars.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
